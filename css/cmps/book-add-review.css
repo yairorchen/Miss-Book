@@ -1,0 +1,27 @@
+.review-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: cursive;
+    align-items: center;
+    background-color: rgb(233, 213, 187);
+    min-height: 350px;
+    max-width: 500px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.review-window>* {
+    height: 40px;
+    max-width: 200px;
+    border-radius: 15px;
+
+}
+
+.review {
+    background-color: rgb(233, 213, 187);
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    font-family: cursive;
+}

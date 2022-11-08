@@ -1,0 +1,42 @@
+.book-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 244, 227);
+    height: 280px;
+    width: 240px;
+    border-radius: 6px;
+    padding: 10px;
+    font-family: cursive;
+    box-shadow: 5px 3px 15px 0px;
+    transition: 0.5s;
+    filter: grayscale();
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.book-preview img {
+    width: 140px;
+}
+
+.book-preview:hover {
+    filter: none;
+    box-shadow: inset -7px -1px 5px 0px;
+}
+
+.preview-content h2 {
+    margin-bottom: 15px;
+}
+
+.green {
+    color: green
+}
+
+.red {
+    color: red
+}
+
+.sale {
+    width: 30px;
+    height: 30px;
+}

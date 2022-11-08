@@ -1,0 +1,23 @@
+.book-details-container {
+    display: flex;
+}
+
+.book-details {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 239, 229);
+    width: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 10;
+    box-shadow: -2px -1px 20px 11px;
+}
+
+.book-details button {
+    align-self: flex-end;
+    cursor: pointer;
+}
